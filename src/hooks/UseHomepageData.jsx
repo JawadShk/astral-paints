@@ -1,7 +1,7 @@
 // src/hooks/useHomepageData.js
 import { useState, useEffect } from 'react';
-import { fetchGraphQLData } from '../services/graphqlService';
-import { GET_HOMEPAGE_DATA } from '../queries/homepageQuery';
+import { fetchGraphQLData } from '../services/GraphqlService';
+import { GET_HOMEPAGE_DATA } from '../queries/HomepageQuery';
 
 const UseHomepageData = () => {
   const [data, setData] = useState(null);
